@@ -1,5 +1,7 @@
 # distphylo
-O# (O4745)
+O# (O4745) Inferring trees from limited data
+
+Code to reconstruct a full tree or forest. Description: TBA.
 
 
 
