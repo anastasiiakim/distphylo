@@ -364,7 +364,7 @@ def prune_tree_and_remove_branch_lengths(tree, species_list):
     tree.prune(species_list, preserve_branch_length=False)
     return tree.write(format=9)
 
-
+#refer to Daskalakis, Mossel, Roth paper (2011, Prune Deep...)
 def get_forest_m(true_newick_string, nj_tree, true_a, a, m_steps, taus, M_steps, Ntips, Thr, k, epsilon, Nruns, taxon_namespace):
     collected_data = []
     t = Tree(true_newick_string)
