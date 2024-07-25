@@ -2,7 +2,9 @@
 O# (O4745) Inferring trees from limited data
 
 Code to reconstruct a full phylogenetic tree or forest of disjoint trees. 
-Input: estimated distance matrix (currecntly we generate alignments using IQTree under JC model and then estimate the distance matrix from alignments), parameters m (forest size), M (related to branch length and depth of the tree), and tau (related to branch lengths).
+
+Input: estimated distance matrix (currently we generate alignments using IQTree under JC model and then estimate the distance matrix from alignments), parameters m (forest size), M (related to branch length and depth of the tree), and tau (related to branch lengths).
+
 We compare results of reconstruction with NJ (either usual RF distance or induced RF distance for the forest).
 
 
